@@ -1,4 +1,4 @@
-# ASR Super-Resolution and Audio Processing Repository
+# Bandwidth Extension from 2kHz to 16kHz for ASR using Efficient Channel Attention Enhanced U-Net
 
 ![Model Architecture](Images/Model%20Arch.png)
 
