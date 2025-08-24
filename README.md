@@ -32,7 +32,7 @@ Comparison of outputs from different models and methods, supported by quantitati
 ## Output Visualizations
 
 - **Input Spectrogram (2 kHz sampling rate):**  
-  ![Input Spectrogram](Images/Model%20Arch.png)  
+  ![Input Spectrogram](Images/2k%20Input%20spectrogram.png)  
 
 - **Bandwidth-Extended Output Spectrogram (16 kHz sampling rate):**  
   ![16K Upsampled Spectrogram](Images/16K%20upsampled%20spectrogram.png)  
