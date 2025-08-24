@@ -1,14 +1,16 @@
 # ASR Super-Resolution and Audio Processing Repository
 
+![Model Architecture](Images/Model%20Arch.png)
+
 This repository contains notebooks and scripts for exploring and implementing audio super-resolution techniques aimed at improving Automatic Speech Recognition (ASR) performance. The project focuses on upsampling low-sampling-rate audio signals and enhancing speech representations using neural networks, interpolation methods, and bandwidth extension approaches.
 
 ---
 
 ## Project Overview
 
+- **Core Architecture:** Custom neural network models including Conformer-based architectures designed for audio super-resolution  
 - **Input:** Low-resolution audio spectrograms at 2 kHz sampling rate  
 - **Output:** Bandwidth-extended audio spectrograms at 16 kHz sampling rate to enhance ASR accuracy  
-- **Core Architecture:** Custom neural network models including Conformer-based architectures designed for audio super-resolution  
 - **Evaluation:** Comparison of learned models and classical interpolation techniques for audio upsampling effectiveness  
 
 ---
@@ -37,9 +39,6 @@ Comparison of outputs from different models and methods, supported by quantitati
 - **Bandwidth-Extended Output Spectrogram (16 kHz sampling rate):**  
   ![16K Upsampled Spectrogram](Images/16K%20upsampled%20spectrogram.png)  
 
-- **Model Architecture Diagram:**  
-  ![Model Architecture](Images/Model%20Arch.png)  
-
 ---
 
 ## Installation
@@ -47,6 +46,7 @@ Comparison of outputs from different models and methods, supported by quantitati
 Install the necessary Python dependencies:
 
 pip install torch torchaudio numpy matplotlib pandas librosa nemo_toolkit scipy
+
 
 ---
 
